@@ -20,9 +20,9 @@ public static void main(String[] args) {
      
      session.save(a1);
      
-    Employee e1=new Employee("nitin", 74800.500, a1);
-    Employee e2=new Employee("chirag", 54800.500, a1);
-    Employee e3=new Employee("nakul", 44800.500, a1);
+    Employee e1=new Employee("Raj", 10000.500, a1);
+    Employee e2=new Employee("Satish", 10000.500, a1);
+    Employee e3=new Employee("Minu", 10000.500, a1);
     
     session.save(e1);
     session.save(e2);
